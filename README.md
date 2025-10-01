@@ -43,7 +43,3 @@ bochs -f bochsrc.txt
 ```
 
 Ensure `bochsrc.txt` points to your bootable image as the disk drive.
-
-## License
-
-MIT License. See LICENSE file for details.
