@@ -23,13 +23,13 @@ The bootloader fits within a single 512-byte sector, following the Master Boot R
 1. Assemble the bootloader:  
 
 ```bash
-nasm -f bin -o bootloader.bin bootloader.asm
+nasm -f bin -o boot.bin boot.asm
 ```
 
 2. Create a bootable image:  
 
 ```bash
-dd if=bootloader.bin of=boot.img bs=512 seek=4
+dd if=boot.bin of=boot.img bs=512 seek=4
 ```
 
 3. Copy the kernel image to the correct location on the bootable image.
