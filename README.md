@@ -4,7 +4,7 @@ A minimal x86 bootloader written in assembly, demonstrating BIOS interrupts, rea
 
 ## Overview
 
-This project provides a step-by-step guide to writing a simple bootloader that:  
+A simple bootloader that:  
 
 - Displays a message on the screen.  
 - Loads a kernel image from disk into memory.  
